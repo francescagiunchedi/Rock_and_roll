@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gilda Musicorum</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400&family=Montserrat:wght@400;600;800&family=Quintessential&display=swap");
+
+      body {
+        margin: 0;
+        background: rgb(196, 196, 196);
+        background: linear-gradient(
+          0deg,
+          rgba(196, 196, 196, 1) 0%,
+          rgba(247, 248, 243, 1) 100%
+        );
+        color: rgb(53, 53, 53);
+      }
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 150px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+      }
+      h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 37px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-weight: lighter;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+      }
+      h3 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        text-align: center;
+        margin: 0px;
+        margin-top: 50px;
+        padding: 0 auto;
+        font-size: 50px;
+        line-height: 45px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      h4 {
+        font-family: "Hind Madurai", sans-serif;
+        font-size: 40px;
+        margin: 0 auto;
+        padding: 15px 0;
+      }
+      h5 {
+        font-family: "Hind Madurai", sans-serif;
+        font-size: 20px;
+        margin: 10px 0;
+      }
+      button {
+        color: #e9ebdd;
+        background-color: #864e51;
+        display: block;
+        margin: 20px auto;
+        padding: 10px 40px;
+        font-size: 20px;
+        border: #864e51;
+        border-radius: 30px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        color: #864e51;
+        background-color: #e9ebdd;
+        border: #e9ebdd;
+      }
+      p {
+        font-family: "Hind Madurai", sans-serif;
+        margin: 20px 0;
+      }
+      a {
+        color: black;
+        text-decoration-color: none;
+        text-decoration: none;
+      }
+      a:visited {
+        color: black;
+        text-decoration-color: none;
+        text-decoration: none;
+      }
+      .containerboxes {
+        margin: 80px 0px;
+        padding: 0;
+        line-height: 23px;
+      }
+      .newsbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0 auto;
+      }
+      .textbox {
+        text-align: justify;
+        max-width: 350px;
+        padding: 0;
+        padding-right: 50px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 160px auto;
+        padding: 0px 40px;
+      }
+      .subtitle {
+        font-family: "Quintessential", cursive;
+        font-size: 20px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 0 0 0 9px;
+      }
+      .social-media-containeraz {
+        max-width: 220px;
+        margin: 50px auto 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        align-items: center;
+      }
+      .linkstyle {
+        font-size: 13px;
+        text-decoration-line: underline;
+        padding: 10px 0;
+        margin: 0;
+      }
+      .title-container {
+        background: black
+          url("https://gildamusicorum.files.wordpress.com/2021/06/manoscritto.jpg?w=750&h=529");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      .main-title {
+        position: absolute;
+        align-items: center;
+        z-index: 1;
+        padding: 70px 0 0 0;
+        line-height: 92px;
+      }
+      .color-overlay {
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0.6;
+        position: absolute;
+      }
+      .gildamusicorum {
+        justify-content: center;
+        position: relative;
+        max-width: fit-content;
+        margin: 0 auto;
+      }
+      .coded {
+        margin: 30px auto;
+        text-align: center;
+        font-size: 10px;
+        font-family: "Hind Madurai", sans-serif;
+      }
+      .user-message {
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 600;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title-container">
+      <div class="main-title">
+        <h1>Rock 'n' Roll</h1>
+        <h2>But from the Middle Ages</h2>
+      </div>
+      <div class="color-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="gildamusicorum">
+        <h3><strong>Gilda Musicorum</strong></h3>
+        <p class="subtitle"><em>Ancient Music Ensemble</em></p>
+      </div>
+
+      <div class="containerboxes">
+        <h4><strong>News</strong></h4>
+        <div class="newsbox">
+          <span class="textbox">
+            <h5>"Homage to Dante: Between Painting, Word and Music"</h5>
+            <p>
+              Friday 30 July at 9:00 pm with Stefano Zuffi, art historian.
+              <br />
+              A evening conducted by Stefano Zuffi during which he will be
+              examined a little studied aspect of the great poet or his
+              relationship with the painting and especially with Giotto (Stefano
+              Zuffi is the author of one extraordinary book Giotto and Dante.
+              Paradise for two, Damiani
+            </p>
+            <a
+              href="https://gildamusicorum.wordpress.com/2021/07/31/sotto-il-campanile-omaggio-a-dante-tra-pittura-parola-e-musica/"
+              target="_blank"
+              alt="Between Painting, Word and Music"
+            >
+              <p class="linkstyle">Keep reading</p>
+            </a>
+          </span>
+          <span class="textbox">
+            <h5>"Homage to Dante"</h5>
+
+            <p>
+              You were hoping you got rid of us, right?
+              <br />
+              But no! There your favorite guild of hers has awakened from her
+              winter slumber and, on the warm evening of Friday 30 July 2021 at
+              21.oo, it will be guest of "Homage to Dante between Painting, Word
+              and Music" below the guide of Stefano Zuffi, art historian and
+              vice-president of the association
+            </p>
+            <a
+              href="https://gildamusicorum.wordpress.com/2021/07/28/omaggioadante30luglio2021/"
+              target="_blank"
+              alt="Homage to Dante"
+            >
+              <p class="linkstyle">Keep Reading</p>
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <button>Contact us</button>
+      <h4 class="user-message hidden">Hi! we'll contact you shortly</h4>
+      <div class="social-media-containeraz">
+        <a href="https://www.facebook.com/gildamusicorum/" target="_blank">
+          <img
+            width="50"
+            src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-512.png"
+            alt="facebook"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/gildamusicorum/?hl=it"
+          target="_blank"
+        >
+          <img
+            width="45"
+            src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-512.png"
+            alt="instagram"
+          />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCrKn6OHv2jvhYUThsGRameQ"
+          target="_blank"
+        >
+          <img
+            width="45"
+            src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/youtube3-512.png"
+            alt="youtube"
+          />
+        </a>
+        <a
+          href="https://open.spotify.com/artist/2sAOytHR3vbkH0KB3iBSPo"
+          target="_blank"
+        >
+          <img
+            width="45"
+            src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Spotify-512.png"
+            alt="spotify"
+          />
+        </a>
+      </div>
+      <hr />
+
+      <p class="coded">coded by Francesca Giunchedi</p>
+    </div>
+
+    <script>
+      let buttonapply = document.querySelector("button");
+      buttonapply.addEventListener("click", contacUs);
+      let userMessage = document.querySelector(".user-message");
+      let show = document.querySelector(".hidden");
+      function contacUs() {
+        let email = prompt(" what's your email?");
+        let name = prompt("what's your name");
+        let age = prompt("what's your age?");
+        if (age >= 18) {
+          show.style.display = "block";
+
+          userMessage.innerHTML = `Hi! ${name} we'll contact you shortly!`;
+        } else {
+          alert("sorry! you're to young! 😥");
+        }
+      }
+    </script>
+  </body>
+</html>
